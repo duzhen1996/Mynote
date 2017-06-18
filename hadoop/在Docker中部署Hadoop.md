@@ -192,3 +192,20 @@ hadoop一开始默认就是设计为单机版，现在就可以使用hadoop的�
 
 当然我们现在就可以运行一些hadoop程序了。
 
+## 运行hadoop程序
+
+hadoop提供了很多案例程序，我们现在使用一个命令来运行一个样例程序：grep，先分别设定了input和output路径，然后就可以进行，样例程序的运行了。
+
+```shell
+./bin/hadoop jar ./share/hadoop/mapreduce/hadoop-mapreduce-examples-*.jar grep input output 'dfs[a-z.]+'
+```
+
+这个就是我们要运行的东西。
+
+## 在IDEA中进行hadoop的开发
+
+因为hadoop是完全基于java的，所以我们可以认为这个hadoop可以运行在mac物理机中，所以我门在IDEA中直接部署了hadoop的环境。
+
+我们主要依照的教程是[使用IntelliJ IDEA 16.1写hadoop程序](http://blog.csdn.net/wk51920/article/details/51686337)
+
+主要就是将hadoop的所有java包导入，然后在编译参数里面声明输入和输出文件。
