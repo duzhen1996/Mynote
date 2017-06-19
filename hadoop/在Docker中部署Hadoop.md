@@ -1,4 +1,4 @@
-# 在Docker中部署Hadoop
+# 在Docker与Mac IDEA中安装单机Hadoop环境
 
 为了方便以后的使用，我们打算将单机版的Hadoop部署在Docker中。我们主要依照的是两个教程，一个是[Hadoop安装教程_单机/伪分布式配置_Hadoop2.6.0/Ubuntu14.04](http://www.powerxing.com/install-hadoop/)还有一个是[Hadoop: Setting up a Single Node Cluster.](http://hadoop.apache.org/docs/r2.8.0/hadoop-project-dist/hadoop-common/SingleCluster.html)。
 
